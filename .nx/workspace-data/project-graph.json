@@ -16515,6 +16515,11 @@
       },
       {
         "source": "dashboard",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "dashboard",
         "target": "npm:@angular/cdk",
         "type": "static"
       },
@@ -38136,5 +38141,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1768412345019
+  "computedAt": 1768420835816
 }

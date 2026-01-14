@@ -1,0 +1,94 @@
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/apps/dashboard/src/app/[22m[1mauth-interceptor.spec.ts[22m ([0m[1m[41m5.861 s[49m[22m[0m)
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/pages/[22m[1mregister.spec.ts[22m
+  [1m● [22mTest suite failed to run
+
+    Cannot find module './register' from 'src/app/pages/register.spec.ts'
+
+    However, Jest was able to find:
+    	'./register.spec.ts'
+    	'./register.css'
+    	'./register.component.ts'
+    	'./register.component.html'
+
+    You might want to include a file extension in your import, or update your 'moduleFileExtensions', which is currently ['ts', 'js', 'mts', 'mjs', 'cts', 'cjs', 'html'].
+
+    See https://jestjs.io/docs/configuration#modulefileextensions-arraystring
+
+    [0m [90m 1 |[39m [36mimport[39m { [33mComponentFixture[39m[33m,[39m [33mTestBed[39m } [36mfrom[39m [32m'@angular/core/testing'[39m[33m;[39m
+    [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mRegister[39m } [36mfrom[39m [32m'./register'[39m[33m;[39m
+     [90m   |[39m [31m[1m^[22m[39m
+     [90m 3 |[39m
+     [90m 4 |[39m describe([32m'Register'[39m[33m,[39m () [33m=>[39m {
+     [90m 5 |[39m   [36mlet[39m component[33m:[39m [33mRegister[39m[33m;[39m[0m
+
+      [2mat Resolver._throwModNotFoundError ([22m../../node_modules/jest-resolve/build/index.js[2m:863:11)[22m
+      [2mat Object.<anonymous> ([22m[0m[36msrc/app/pages/register.spec.ts[39m[0m[2m:2:1)[22m
+
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/[22m[1mapp.spec.ts[22m ([0m[1m[41m6.637 s[49m[22m[0m)
+[1m[31m  [1m● [22m[1mApp › should render title[39m[22m
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    [1mMatcher error[22m: [31mreceived[39m value must not be null nor undefined
+
+    Received has value: [31mundefined[39m
+[2m[22m
+[2m    [0m [90m 14 |[39m     [36mawait[39m fixture[33m.[39mwhenStable()[33m;[39m[22m
+[2m     [90m 15 |[39m     [36mconst[39m compiled [33m=[39m fixture[33m.[39mnativeElement [36mas[39m [33mHTMLElement[39m[33m;[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 16 |[39m     expect(compiled[33m.[39mquerySelector([32m'h1'[39m)[33m?[39m[33m.[39mtextContent)[33m.[39mtoContain([22m
+[2m     [90m    |[39m                                                       [31m[1m^[22m[2m[39m[22m
+[2m     [90m 17 |[39m       [32m'Welcome dashboard'[39m[33m,[39m[22m
+[2m     [90m 18 |[39m     )[33m;[39m[22m
+[2m     [90m 19 |[39m   })[33m;[39m[0m[22m
+[2m[22m
+[2m      [2mat [22m[2m[0m[36msrc/app/app.spec.ts[39m[0m[2m:16:55[22m[2m[22m
+[2m      [2mat fulfilled ([22m[2m../../node_modules/tslib/tslib.js[2m:167:62)[22m[2m[22m
+
+C:\TurboVets Coding Challenge\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\node_modules\@angular\router\fesm2022\_router-chunk.mjs:2995
+    return new import_core.\u0275RuntimeError(4002, typeof ngDevMode === "undefined" || ngDevMode ? `Cannot match any routes. URL Segment: '${e.segmentGroup}'` : `'${e.segmentGroup}'`);
+           ^
+
+[RuntimeError: NG04002: Cannot match any routes. URL Segment: 'login'] {
+  code: [33m4002[39m
+}
+
+Node.js v22.14.0
+C:\TurboVets Coding Challenge\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\node_modules\@angular\router\fesm2022\_router-chunk.mjs:2995
+    return new import_core.\u0275RuntimeError(4002, typeof ngDevMode === "undefined" || ngDevMode ? `Cannot match any routes. URL Segment: '${e.segmentGroup}'` : `'${e.segmentGroup}'`);
+           ^
+
+[RuntimeError: NG04002: Cannot match any routes. URL Segment: 'login'] {
+  code: [33m4002[39m
+}
+
+Node.js v22.14.0
+C:\TurboVets Coding Challenge\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\node_modules\@angular\router\fesm2022\_router-chunk.mjs:2995
+    return new import_core.\u0275RuntimeError(4002, typeof ngDevMode === "undefined" || ngDevMode ? `Cannot match any routes. URL Segment: '${e.segmentGroup}'` : `'${e.segmentGroup}'`);
+           ^
+
+[RuntimeError: NG04002: Cannot match any routes. URL Segment: 'login'] {
+  code: [33m4002[39m
+}
+
+Node.js v22.14.0
+C:\TurboVets Coding Challenge\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\node_modules\@angular\router\fesm2022\_router-chunk.mjs:2995
+    return new import_core.\u0275RuntimeError(4002, typeof ngDevMode === "undefined" || ngDevMode ? `Cannot match any routes. URL Segment: '${e.segmentGroup}'` : `'${e.segmentGroup}'`);
+           ^
+
+[RuntimeError: NG04002: Cannot match any routes. URL Segment: 'login'] {
+  code: [33m4002[39m
+}
+
+Node.js v22.14.0
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/pages/[22m[1mdashboard.component.spec.ts[22m
+  [1m● [22mTest suite failed to run
+
+    Jest worker encountered 4 child process exceptions, exceeding retry limit
+
+      [2mat ChildProcessWorker.initialize ([22m../../node_modules/jest-worker/build/index.js[2m:805:21)[22m
+
+[1mTest Suites: [22m[1m[31m3 failed[39m[22m, [1m[32m1 passed[39m[22m, 4 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, [1m[32m1 passed[39m[22m, 2 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        35.012 s
+[2mRan all test suites[22m[2m.[22m

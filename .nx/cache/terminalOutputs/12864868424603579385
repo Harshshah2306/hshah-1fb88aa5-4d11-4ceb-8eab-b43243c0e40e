@@ -1,0 +1,16 @@
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/apps/dashboard/src/app/[22m[1mauth-interceptor.spec.ts[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/pages/[22m[1mregister.spec.ts[22m
+  [1m● [22mConsole
+
+    [2mconsole.log[22m
+      Registration successful! { success: true }
+[2m[22m
+[2m      [2mat Object.next ([22m[2msrc/app/pages/register.component.ts[2m:31:17)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/pages/[22m[1mdashboard.component.spec.ts[22m
+
+[1mTest Suites: [22m[1m[32m3 passed[39m[22m, 3 total
+[1mTests:       [22m[1m[32m5 passed[39m[22m, 5 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m7.868 s[39m[22m
+[2mRan all test suites[22m[2m.[22m
