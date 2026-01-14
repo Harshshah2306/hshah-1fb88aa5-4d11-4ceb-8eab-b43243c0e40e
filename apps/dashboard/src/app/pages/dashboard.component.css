@@ -1,0 +1,274 @@
+/* --- 1. Main Container --- */
+.dashboard-container {
+  padding: 20px;
+  max-width: 1200px; /* Keeps it from getting too wide on huge screens */
+  margin: 0 auto;    /* Centers the whole app */
+  font-family: 'Arial', sans-serif;
+}
+
+/* --- 2. Header (Logo & Logout) --- */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+.add-btn{
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background-color: #d93636;
+}
+
+/* --- 3. The Input Bar (The part that looks broken in your image) --- */
+.create-task-bar {
+  display: flex;       /* This aligns Input and Button side-by-side */
+  gap: 15px;           /* Space between them */
+  margin-bottom: 30px;
+}
+
+.create-task-bar input {
+  flex: 1;             /* CRITICAL: Makes input stretch to fill space */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.create-task-bar button {
+  padding: 12px 25px;
+  background-color: #007bff; /* Nice Blue */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.create-task-bar button:hover {
+  background-color: #0056b3;
+}
+
+/* --- 4. The Board (Columns) --- */
+.board {
+  display: flex;       /* Puts columns side-by-side */
+  gap: 20px;           /* Space between columns */
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;             /* Makes all columns equal width */
+  background: #f4f5f7; /* Light grey background like Trello */
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 400px;
+}
+
+.column h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #5e6c84;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* --- 5. The Task Cards --- */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 100px; /* Ensures you can drop items into an empty list */
+}
+
+.task-card {
+  padding: 15px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  cursor: grab;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.task-card:active {
+  cursor: grabbing;
+}
+
+/* Done items look faded */
+.done-card {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #f8f9fa;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  color: #d93636;
+}
+
+/* --- Mobile Fix --- */
+@media (max-width: 768px) {
+  .board {
+    flex-direction: column; /* Stack columns on phones */
+  }
+}
+
+.viewer-message {
+  background-color: #f8f9fa; /* Light gray background */
+  border: 1px solid #e9ecef; /* Subtle border */
+  color: #6c757d; /* Muted text color */
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 20px; /* Space below the message */
+  font-size: 1rem;
+}
+
+.viewer-message strong {
+  color: #495057; /* Darker color for the "View Only" text */
+}
+
+/* Ensure the input container (if you have one) has spacing too */
+.add-task-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Optional: Make the input take up available space */
+.add-task-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+}
+
+.assignee-chip {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #666;
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- EXISTING STYLES ... --- */
+
+/* CARD HEADER LAYOUT */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 8px;
+  min-height: 28px; /* Prevents jumping when switching modes */
+}
+
+/* Make title take available space so buttons stay right */
+.task-title {
+  flex-grow: 1;
+  margin-right: 8px;
+  word-break: break-word;
+}
+
+/* EDIT INPUT */
+.edit-input {
+  flex-grow: 1;
+  padding: 4px 6px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  margin-right: 6px;
+  outline: none;
+}
+
+.edit-input:focus {
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.4);
+}
+
+/* ACTION BUTTONS GROUP */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0; /* Prevents buttons from squishing */
+}
+
+/* BUTTON STYLES */
+.edit-btn, .save-btn, .cancel-btn, .delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-btn { color: #f39c12; }  /* Orange Pencil */
+.save-btn { color: #2ecc71; font-weight: bold; } /* Green Check */
+.cancel-btn { color: #7f8c8d; font-size: 0.85rem; font-weight: bold; } /* Grey Esc */
+.delete-btn { color: #e74c3c; } /* Red Cross */
+
+/* Hover Effects */
+.edit-btn:hover { background-color: #fef5e7; }
+.save-btn:hover { background-color: #eafaf1; }
+.cancel-btn:hover { background-color: #f2f3f4; }
+.delete-btn:hover { background-color: #fdedec; }
