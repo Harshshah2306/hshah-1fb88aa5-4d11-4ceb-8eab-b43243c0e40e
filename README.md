@@ -59,9 +59,8 @@ npm install```
 
 #This project is a monorepo managed by **Nx**. You need to run the backend and frontend services simultaneously.
 #Step 1: Start the API (Backend)
-Make sure your PostgreSQL database is up and running, then start the backend server:
+#Make sure your PostgreSQL database is up and running, then start the backend server:
 
-```bash
 # Terminal 1
 npx nx serve api
 
