@@ -37,7 +37,7 @@ A full-stack RBAC (Role-Based Access Control) Task Management System built with 
 | :--- | :--- |
 | **Monorepo** | [Nx](https://nx.dev) |
 | **Backend** | [NestJS](https://nestjs.com) |
-| **Database** | PostgreSQL |
+| **Database** | SQLlite |
 | **ORM** | TypeORM |
 | **Frontend** | [Angular](https://angular.io) |
 | **Styling** | [TailwindCSS](https://tailwindcss.com) |
