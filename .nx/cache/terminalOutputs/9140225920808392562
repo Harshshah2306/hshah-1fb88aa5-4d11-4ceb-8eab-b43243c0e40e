@@ -1,0 +1,27 @@
+[2m> [22mwebpack-cli build --node-env=production
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.controller.ts:[32m[1m3:30[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/libs/auth/src/lib/jwt-auth.guard.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mRequest[39m[33m,[39m [33mUseGuards[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m
+   [90m 2 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mJwtAuthGuard[39m } [36mfrom[39m [32m'libs/auth/src/lib/jwt-auth.guard'[39m[33m;[39m [90m// Ensure you have this guard[39m
+   [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 4 |[39m
+   [90m 5 |[39m [33m@[39m[33mController[39m([32m'tasks'[39m)
+   [90m 6 |[39m [33m@[39m[33mUseGuards[39m([33mJwtAuthGuard[39m) [90m// 👈 Protects routes so only logged-in users can access[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a8e79e836230cb85)
+[2m> [22mwebpack-cli build --node-env=production
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.controller.ts:[32m[1m3:30[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/libs/auth/src/lib/jwt-auth.guard.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mRequest[39m[33m,[39m [33mUseGuards[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m
+   [90m 2 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mJwtAuthGuard[39m } [36mfrom[39m [32m'libs/auth/src/lib/jwt-auth.guard'[39m[33m;[39m [90m// Ensure you have this guard[39m
+   [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 4 |[39m
+   [90m 5 |[39m [33m@[39m[33mController[39m([32m'tasks'[39m)
+   [90m 6 |[39m [33m@[39m[33mUseGuards[39m([33mJwtAuthGuard[39m) [90m// 👈 Protects routes so only logged-in users can access[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a8e79e836230cb85)
+Warning: command "webpack-cli build --node-env=production" exited with non-zero status code

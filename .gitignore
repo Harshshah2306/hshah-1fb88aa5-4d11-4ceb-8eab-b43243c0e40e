@@ -22,3 +22,60 @@ lerna-debug.log*
 # temp directory
 .temp
 .tmp
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+
+# Node modules and dependency files
+/node_modules/
+# Keep package-lock.json or yarn.lock for dependency reproducibility
+# /package-lock.json
+# /yarn.lock
+
+# Environment files
+/.env
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.mfode
+*.launch
+.buildpath
+
+# VSCode
+# https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.VC.db
+
+# Angular CLI and build artifacts
+/.angular/
+.angular/
+# .angular folder contains essential configuration files and should typically be tracked, 
+# but temporary caches within it (e.g., .angular/cache) might be ignored by default in newer CLI versions.
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db

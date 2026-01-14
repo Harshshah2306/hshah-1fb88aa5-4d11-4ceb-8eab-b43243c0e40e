@@ -1,0 +1,33 @@
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/apps/dashboard/src/app/[22m[1mauth-interceptor.spec.ts[22m
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/pages/[22m[1mregister.spec.ts[22m
+[1m[31m  [1m● [22m[1mRegisterComponent › should send POST request and navigate to login on success[39m[22m
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+    [32m- Expected  - 0[39m
+    [31m+ Received  + 2[39m
+
+    [2m  Object {[22m
+    [2m    "email": "test@test.com",[22m
+    [31m+   "organizationId": "default-org",[39m
+    [2m    "password": "123456",[22m
+    [31m+   "role": "VIEWER",[39m
+    [2m  }[22m
+[2m[22m
+[2m    [0m [90m 52 |[39m     [36mconst[39m req [33m=[39m httpMock[33m.[39mexpectOne([32m'http://localhost:3000/api/auth/register'[39m)[33m;[39m[22m
+[2m     [90m 53 |[39m     expect(req[33m.[39mrequest[33m.[39mmethod)[33m.[39mtoBe([32m'POST'[39m)[33m;[39m[22m
+[2m    [31m[1m>[22m[2m[39m[90m 54 |[39m     expect(req[33m.[39mrequest[33m.[39mbody)[33m.[39mtoEqual({[22m
+[2m     [90m    |[39m                              [31m[1m^[22m[2m[39m[22m
+[2m     [90m 55 |[39m       email[33m:[39m [32m'test@test.com'[39m[33m,[39m[22m
+[2m     [90m 56 |[39m       password[33m:[39m [32m'123456'[39m[22m
+[2m     [90m 57 |[39m       [90m// organizationId: 'default-org',[39m[0m[22m
+[2m[22m
+[2m      [2mat Object.<anonymous> ([22m[2m[0m[36msrc/app/pages/register.spec.ts[39m[0m[2m:54:30)[22m[2m[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m dashboard [39m[27m[0m [2mapps/dashboard/src/app/pages/[22m[1mdashboard.component.spec.ts[22m
+
+[1mTest Suites: [22m[1m[31m1 failed[39m[22m, [1m[32m2 passed[39m[22m, 3 total
+[1mTests:       [22m[1m[31m1 failed[39m[22m, [1m[32m4 passed[39m[22m, 5 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        [1m[33m8.345 s[39m[22m
+[2mRan all test suites[22m[2m.[22m

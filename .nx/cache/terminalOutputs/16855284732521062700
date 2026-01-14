@@ -1,0 +1,617 @@
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development  [2m[local cache][22m
+
+[2m> [22mwebpack-cli build --node-env=development
+
+webpack compiled [1m[32msuccessfully[39m[22m (550e0f8fb8388924)
+
+
+
+[0m[7m[1m[32m NX [39m[22m[27m[0m  [32mSuccessfully ran target [1mbuild[22m for project api and [1m1[22m task it depends on[39m
+
+[2mNx read the output from the cache instead of running the command for 2 out of 2 tasks.[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/eedfec91-b76e-4a67-8f52-3be3e9f48977[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/eedfec91-b76e-4a67-8f52-3be3e9f48977[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +88ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +65ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +10ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +11ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/api/auth}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/login, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/auth/register, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/api/users}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +194ms[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:22 pm [32m    LOG[39m [32m🚀 Application is running on: http://localhost:3000/api[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:25 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mAttempting login...[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:25 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mBody received: {"email":"test@example.com","password":"password@123"}[39m
+[33m[Nest] 38260  - [39m12/01/2026, 4:43:25 pm [33m   WARN[39m [38;5;3m[AuthController] [39m[33m❌ Login failed for email: test@example.com[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:42 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mAttempting login...[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:42 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mBody received: {"email":"test@example.com","password":"password123"}[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:43:42 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32m✅ Login successful for: test@example.com[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:46:34 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mAttempting login...[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:46:34 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mBody received: {"email":"test@example.com","password":"password123"}[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:46:34 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32m✅ Login successful for: test@example.com[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:48:05 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mAttempting login...[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:48:05 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mBody received: {"email":"test@example.com","password":"passwored123"}[39m
+[33m[Nest] 38260  - [39m12/01/2026, 4:48:05 pm [33m   WARN[39m [38;5;3m[AuthController] [39m[33m❌ Login failed for email: test@example.com[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:48:15 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mAttempting login...[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:48:15 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32mBody received: {"email":"test@example.com","password":"password123"}[39m
+[32m[Nest] 38260  - [39m12/01/2026, 4:48:15 pm [32m    LOG[39m [38;5;3m[AuthController] [39m[32m✅ Login successful for: test@example.com[39m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+[2m> [22mwebpack-cli build --node-env=development
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m5:20[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [90m// It usually looks like @<workspace-name>/data[39m
+   [90m 4 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'@hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/data'[39m[33m;[39m 
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m {[33mTask[39m} [36mfrom[39m [32m'./task.entity'[39m
+   [90m   |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m [33m@[39m[33mEntity[39m()
+   [90m 7 |[39m [36mexport[39m [36mclass[39m [33mUser[39m {
+   [90m 8 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'user' does not exist on type 'unknown'.
+  [0m [90m 25 |[39m   organizationId[33m:[39m string[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m   [33m@[39m[33mOneToMany[39m(() [33m=>[39m [33mTask[39m[33m,[39m (task) [33m=>[39m task[33m.[39muser)
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m   tasks[33m:[39m [33mTask[39m[][33m;[39m
+   [90m 29 |[39m }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d47c504e4f2a64cd)
+Warning: command "webpack-cli build --node-env=development" exited with non-zero status code
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+[2m> [22mwebpack-cli build --node-env=development
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m5:20[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [90m// It usually looks like @<workspace-name>/data[39m
+   [90m 4 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'@hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/data'[39m[33m;[39m 
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m {[33mTask[39m} [36mfrom[39m [32m'./task.entity'[39m
+   [90m   |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m [33m@[39m[33mEntity[39m()
+   [90m 7 |[39m [36mexport[39m [36mclass[39m [33mUser[39m {
+   [90m 8 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'user' does not exist on type 'unknown'.
+  [0m [90m 25 |[39m   organizationId[33m:[39m string[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m   [33m@[39m[33mOneToMany[39m(() [33m=>[39m [33mTask[39m[33m,[39m (task) [33m=>[39m task[33m.[39muser)
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m   tasks[33m:[39m [33mTask[39m[][33m;[39m
+   [90m 29 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/task.service.ts:[32m[1m4:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mUser[39m } [36mfrom[39m [32m'./entities/user.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (d47c504e4f2a64cd)
+Warning: command "webpack-cli build --node-env=development" exited with non-zero status code
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+[2m> [22mwebpack-cli build --node-env=development
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m5:20[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [90m// It usually looks like @<workspace-name>/data[39m
+   [90m 4 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'@hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/data'[39m[33m;[39m 
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m {[33mTask[39m} [36mfrom[39m [32m'./task.entity'[39m
+   [90m   |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m [33m@[39m[33mEntity[39m()
+   [90m 7 |[39m [36mexport[39m [36mclass[39m [33mUser[39m {
+   [90m 8 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'user' does not exist on type 'unknown'.
+  [0m [90m 25 |[39m   organizationId[33m:[39m string[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m   [33m@[39m[33mOneToMany[39m(() [33m=>[39m [33mTask[39m[33m,[39m (task) [33m=>[39m task[33m.[39muser)
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m   tasks[33m:[39m [33mTask[39m[][33m;[39m
+   [90m 29 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.service.ts:[32m[1m4:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mUser[39m } [36mfrom[39m [32m'./entities/user.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (d47c504e4f2a64cd)
+Warning: command "webpack-cli build --node-env=development" exited with non-zero status code
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+[2m> [22mwebpack-cli build --node-env=development
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m5:20[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [90m// It usually looks like @<workspace-name>/data[39m
+   [90m 4 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'@hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/data'[39m[33m;[39m 
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m {[33mTask[39m} [36mfrom[39m [32m'./task.entity'[39m
+   [90m   |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m [33m@[39m[33mEntity[39m()
+   [90m 7 |[39m [36mexport[39m [36mclass[39m [33mUser[39m {
+   [90m 8 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'user' does not exist on type 'unknown'.
+  [0m [90m 25 |[39m   organizationId[33m:[39m string[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m   [33m@[39m[33mOneToMany[39m(() [33m=>[39m [33mTask[39m[33m,[39m (task) [33m=>[39m task[33m.[39muser)
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m   tasks[33m:[39m [33mTask[39m[][33m;[39m
+   [90m 29 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/tasks.controller.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+   [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m5:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({
+   [90m 8 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTask[39m])][33m,[39m [90m// 👈 Registers the Entity[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.service.ts:[32m[1m4:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mUser[39m } [36mfrom[39m [32m'./entities/user.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (d47c504e4f2a64cd)
+Warning: command "webpack-cli build --node-env=development" exited with non-zero status code
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+[2m> [22mwebpack-cli build --node-env=development
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m5:20[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [90m// It usually looks like @<workspace-name>/data[39m
+   [90m 4 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'@hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/data'[39m[33m;[39m 
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m {[33mTask[39m} [36mfrom[39m [32m'./task.entity'[39m
+   [90m   |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m [33m@[39m[33mEntity[39m()
+   [90m 7 |[39m [36mexport[39m [36mclass[39m [33mUser[39m {
+   [90m 8 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'user' does not exist on type 'unknown'.
+  [0m [90m 25 |[39m   organizationId[33m:[39m string[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m   [33m@[39m[33mOneToMany[39m(() [33m=>[39m [33mTask[39m[33m,[39m (task) [33m=>[39m task[33m.[39muser)
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m   tasks[33m:[39m [33mTask[39m[][33m;[39m
+   [90m 29 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/tasks.controller.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+   [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m5:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({
+   [90m 8 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTask[39m])][33m,[39m [90m// 👈 Registers the Entity[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.service.ts:[32m[1m4:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mUser[39m } [36mfrom[39m [32m'./entities/user.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (a416ea545cc26dae)
+Warning: command "webpack-cli build --node-env=development" exited with non-zero status code
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+[2m> [22mwebpack-cli build --node-env=development
+
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+[2m> [22mwebpack-cli build --node-env=development
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m5:20[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [90m// It usually looks like @<workspace-name>/data[39m
+   [90m 4 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'@hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/data'[39m[33m;[39m 
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m {[33mTask[39m} [36mfrom[39m [32m'./task.entity'[39m
+   [90m   |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m [33m@[39m[33mEntity[39m()
+   [90m 7 |[39m [36mexport[39m [36mclass[39m [33mUser[39m {
+   [90m 8 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'user' does not exist on type 'unknown'.
+  [0m [90m 25 |[39m   organizationId[33m:[39m string[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m   [33m@[39m[33mOneToMany[39m(() [33m=>[39m [33mTask[39m[33m,[39m (task) [33m=>[39m task[33m.[39muser)
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m   tasks[33m:[39m [33mTask[39m[][33m;[39m
+   [90m 29 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/tasks.controller.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+   [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m5:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({
+   [90m 8 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTask[39m])][33m,[39m [90m// 👈 Registers the Entity[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.service.ts:[32m[1m4:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mUser[39m } [36mfrom[39m [32m'./entities/user.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (a416ea545cc26dae)
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m5:20[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [90m// It usually looks like @<workspace-name>/data[39m
+   [90m 4 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'@hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/data'[39m[33m;[39m 
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m {[33mTask[39m} [36mfrom[39m [32m'./task.entity'[39m
+   [90m   |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m [33m@[39m[33mEntity[39m()
+   [90m 7 |[39m [36mexport[39m [36mclass[39m [33mUser[39m {
+   [90m 8 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'user' does not exist on type 'unknown'.
+  [0m [90m 25 |[39m   organizationId[33m:[39m string[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m   [33m@[39m[33mOneToMany[39m(() [33m=>[39m [33mTask[39m[33m,[39m (task) [33m=>[39m task[33m.[39muser)
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m   tasks[33m:[39m [33mTask[39m[][33m;[39m
+   [90m 29 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/tasks.controller.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+   [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m5:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({
+   [90m 8 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTask[39m])][33m,[39m [90m// 👈 Registers the Entity[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.service.ts:[32m[1m4:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mUser[39m } [36mfrom[39m [32m'./entities/user.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (a416ea545cc26dae)
+Warning: command "webpack-cli build --node-env=development" exited with non-zero status codeWarning: command "webpack-cli build --node-env=development" exited with non-zero status code
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+
+[7m[1m[36m NX [39m[22m[27m [1mFile change detected. Restarting...[22m
+
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  [36mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on:[39m
+
+
+
+[2m> [22m[2mnx run[22m data:build  [2m[existing outputs match the cache, left as is][22m
+
+
+[2m> [22m[2mnx run[22m api:build:development
+
+[2m> [22mwebpack-cli build --node-env=development
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m5:20[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [90m// It usually looks like @<workspace-name>/data[39m
+   [90m 4 |[39m [36mimport[39m { [33mUserRole[39m } [36mfrom[39m [32m'@hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/data'[39m[33m;[39m 
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m {[33mTask[39m} [36mfrom[39m [32m'./task.entity'[39m
+   [90m   |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m [33m@[39m[33mEntity[39m()
+   [90m 7 |[39m [36mexport[39m [36mclass[39m [33mUser[39m {
+   [90m 8 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/entities/user.entity.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'user' does not exist on type 'unknown'.
+  [0m [90m 25 |[39m   organizationId[33m:[39m string[33m;[39m
+   [90m 26 |[39m
+  [31m[1m>[22m[39m[90m 27 |[39m   [33m@[39m[33mOneToMany[39m(() [33m=>[39m [33mTask[39m[33m,[39m (task) [33m=>[39m task[33m.[39muser)
+   [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 28 |[39m   tasks[33m:[39m [33mTask[39m[][33m;[39m
+   [90m 29 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.controller.ts:[32m[1m3:30[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/libs/auth/src/lib/jwt-auth.guard.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mRequest[39m[33m,[39m [33mUseGuards[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m
+   [90m 2 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mJwtAuthGuard[39m } [36mfrom[39m [32m'libs/auth/src/lib/jwt-auth.guard'[39m[33m;[39m [90m// Ensure you have this guard[39m
+   [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 4 |[39m
+   [90m 5 |[39m [33m@[39m[33mController[39m([32m'tasks'[39m)
+   [90m 6 |[39m [33m@[39m[33mUseGuards[39m([33mJwtAuthGuard[39m) [90m// 👈 Protects routes so only logged-in users can access[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.module.ts:[32m[1m5:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTasksService[39m } [36mfrom[39m [32m'./tasks.service'[39m[33m;[39m
+   [90m 4 |[39m [36mimport[39m { [33mTasksController[39m } [36mfrom[39m [32m'./tasks.controller'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mModule[39m({
+   [90m 8 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTask[39m])][33m,[39m [90m// 👈 Registers the Entity[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tasks.service.ts:[32m[1m4:22[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'C:/TurboVets Coding Challenge/test/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e/apps/api/src/app/entities/task.entity.ts' is not a module.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m
+   [90m 3 |[39m [36mimport[39m { [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTask[39m } [36mfrom[39m [32m'./entities/task.entity'[39m[33m;[39m
+   [90m   |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 5 |[39m [36mimport[39m { [33mUser[39m } [36mfrom[39m [32m'./entities/user.entity'[39m[33m;[39m
+   [90m 6 |[39m
+   [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (19b11a8c086f98ce)
+Warning: command "webpack-cli build --node-env=development" exited with non-zero status code
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project api and [1m1[22m task it depends on failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m api:build:development
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+C:\TurboVets Coding Challenge\test\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\node_modules\@nx\js\src\executors\node\lib\coalescing-debounce.js:47
+                reject(new Error('Cancelled'));
+                       ^
+
+Error: Cancelled
+    at Object.cancel [90m(C:\TurboVets Coding Challenge\test\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\[39mnode_modules\[4m@nx[24m\js\src\executors\node\lib\coalescing-debounce.js:47:24[90m)[39m
+    at stopAllTasks [90m(C:\TurboVets Coding Challenge\test\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\[39mnode_modules\[4m@nx[24m\js\src\executors\node\node.impl.js:178:35[90m)[39m
+    at process.<anonymous> [90m(C:\TurboVets Coding Challenge\test\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\[39mnode_modules\[4m@nx[24m\js\src\executors\node\node.impl.js:199:19[90m)[39m
+[90m    at process.emit (node:events:518:28)[39m
+    at process.emit [90m(C:\TurboVets Coding Challenge\test\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\hshah-1fb88aa5-4d11-4ceb-8eab-b43243c0e40e\[39mnode_modules\[4mnx[24m\src\native\index.js:20:23[90m)[39m
+
+Node.js v22.14.0

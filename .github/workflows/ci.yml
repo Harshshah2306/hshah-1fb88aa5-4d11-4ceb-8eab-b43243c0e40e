@@ -1,0 +1,39 @@
+name: TurboVets CI
+
+# Trigger on push or pull request to main/master branches
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: Run Unit Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out your code from the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Install Node.js (Using v18 LTS)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm' # Caches dependencies to speed up future runs
+
+      # 3. Install project dependencies
+      - name: Install Dependencies
+        run: npm install --legacy-peer-deps
+
+      # 4. Run Backend Tests (API)
+      # This runs the Jest tests we fixed for TasksService and UsersService
+      - name: Test Backend (API)
+        run: npx nx test api
+
+      # 5. Run Frontend Tests (Dashboard)
+      # This runs the Angular tests for the DashboardComponent
+      - name: Test Frontend (Dashboard)
+        run: npx nx test dashboard --browsers=ChromeHeadless

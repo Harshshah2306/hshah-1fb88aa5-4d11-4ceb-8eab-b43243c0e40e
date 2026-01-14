@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx test dashboard",
+    "startTime": "2026-01-14T20:00:35.889Z",
+    "endTime": "2026-01-14T20:00:47.916Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "dashboard:test",
+      "target": "test",
+      "projectName": "dashboard",
+      "hash": "12864868424603579385",
+      "startTime": "2026-01-14T20:00:35.926Z",
+      "endTime": "2026-01-14T20:00:47.908Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
