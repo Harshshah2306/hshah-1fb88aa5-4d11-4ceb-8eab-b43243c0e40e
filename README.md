@@ -55,4 +55,14 @@ A full-stack RBAC (Role-Based Access Control) Task Management System built with 
 ### 2. Installation
 ```bash
 # Install dependencies
-npm install
+npm install```
+
+#This project is a monorepo managed by **Nx**. You need to run the backend and frontend services simultaneously.
+#Step 1: Start the API (Backend)
+#Make sure your PostgreSQL database is up and running, then start the backend server:
+
+# Terminal 1
+npx nx serve api
+
+# Terminal 2
+npx nx serve dashboard
